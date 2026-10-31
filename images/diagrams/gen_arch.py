@@ -79,5 +79,7 @@ ax.text(9.5, (oy+oh+cy_top)/2 - 0.1, "restored\non boot", fontsize=7.4, color="g
 ax.text(5.0, oy - 0.35, "Figure 1. Smart Refrigerator staged edge-analytics architecture: sensing → validation/event detection → scoring/analytics → local presentation & persistence.",
         ha="center", va="top", fontsize=8.8, style="italic")
 
-plt.savefig("/tmp/claude-0/-home-claude/5064cee4-1607-5f19-bd67-fd010c8ffea2/scratchpad/idf_work/diagrams/architecture.png", dpi=220, bbox_inches="tight", facecolor="white")
-print("saved")
+import os
+out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "architecture.png")
+plt.savefig(out_path, dpi=220, bbox_inches="tight", facecolor="white")
+print(f"saved to {out_path}")

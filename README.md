@@ -4,6 +4,11 @@ An offline, single-chip ESP32 system that monitors a refrigerator's temperature,
 
 Embedded Systems project, VIT Vellore. Team: Kevin Joseph (25BCE2971), Alina Paleri (25BCE0411), Shasmeen Alesha (25BCE2928).
 
+<p>
+<img src="images/team/team_presentation.jpg" width="48%">
+<img src="images/team/team_prototype_demo.jpg" width="48%">
+</p>
+
 ![Architecture](images/diagrams/architecture.png)
 
 ## Features
@@ -29,6 +34,8 @@ Embedded Systems project, VIT Vellore. Team: Kevin Joseph (25BCE2971), Alina Pal
 <p>
 <img src="images/hardware/prototype_overview.jpg" width="48%">
 <img src="images/hardware/oled_live_status.jpg" width="48%">
+<img src="images/hardware/ds18b20_probe.jpg" width="48%">
+<img src="images/hardware/dht22.jpg" width="48%">
 </p>
 
 ## Build and run
@@ -53,5 +60,5 @@ TRL 4, validated on the bench. Multi-day in-refrigerator validation is still pen
 firmware/smart_refrigerator/   final firmware
 firmware/archive/              earlier prototype
 docs/                          IDF-B, novelty analysis, viva prep, slides
-images/                        hardware photos, dashboard screenshots, diagrams
+images/                        hardware photos, dashboard screenshots, diagrams, team photos
 ```
