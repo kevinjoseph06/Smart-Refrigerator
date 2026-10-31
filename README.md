@@ -36,6 +36,8 @@ Embedded Systems project, VIT Vellore. Team: Kevin Joseph (25BCE2971), Alina Pal
 <img src="images/hardware/oled_live_status.jpg" width="48%">
 <img src="images/hardware/ds18b20_probe.jpg" width="48%">
 <img src="images/hardware/dht22.jpg" width="48%">
+<img src="images/hardware/buzzer.jpg" width="48%">
+<img src="images/hardware/ds18b20_reed_switch.jpg" width="48%">
 </p>
 
 ## Build and run
