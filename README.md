@@ -34,7 +34,7 @@ Embedded Systems project, VIT Vellore. Team: Kevin Joseph (25BCE2971), Alina Pal
 ## Build and run
 1. Install Arduino IDE with the ESP32 board package. Libraries: OneWire, DallasTemperature, DHT sensor library, Adafruit SSD1306, Adafruit GFX.
 2. Open `firmware/smart_refrigerator/smart_refrigerator.ino`, select **ESP32 Dev Module**, and upload.
-3. Connect to the ESP32 WiFi access point and open the dashboard address printed on the OLED / serial monitor.
+3. Connect to the WiFi network `Smart_Refrigerator` (default password in the firmware; change `AP_PASSWORD` before sharing) and open the dashboard IP printed on the serial monitor (the ESP32 default is `192.168.4.1`).
 
 Build result: 978,860 bytes (74% flash), 47,504 bytes (14% RAM).
 
